@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var idade = prompt('digite a sua idade');
+        var id = parseInt(idade);
+        if (idade >= 0 && id < 15) {
+            document.write('CRIANÇA');
+        }
+        else if (idade >= 15 && id < 30) {
+            document.write('JOVEM');
+        }
+        else if (idade >= 30 && id < 60) {
+            document.write('ADULTO');
+        }
+        else if (idade >= 60) {
+            document.write('IDOSO');
+        }
+        else { document.write('INVÁLIDO! DIGITE UM NÚMERO') }
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
