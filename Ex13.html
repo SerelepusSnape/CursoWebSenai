@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body,
+        html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+
+        .cube {
+            width: 100%;
+            padding: 100px;
+            background-color: azure;
+        }
+
+        input {
+            width: 20%;
+            height: 30px;
+            font-size: 18px;
+            margin-bottom: 10px;
+            background-color: aliceblue;
+            border: solid black 1.5px;
+            border-radius: 10px;
+            background-repeat: no-repeat;
+            background-position: top 5px right 10px;
+            margin-top: 30px;
+            margin-right: 20px;
+            float: right;
+        }
+
+        .logo {
+            float: left;
+            text-indent: 20px;
+            width: 20%;
+        }
+
+        .cabe ul {
+            float: left;
+            width: 50%;
+            margin: 0px 0px 0px 20px;
+            line-height: 100px;
+            text-align: center;
+        }
+
+        .cabe ul li {
+            text-decoration: none;
+            display: inline;
+            color: beige;
+            font-family: 'finger paint', cursive;
+            font-size: 1.5px;
+            cursor: pointer;
+        }
+
+        .cabe ul li:hover {
+            color: cornflowerblue;
+        }
+
+        .img1,
+        .img2,
+        .img3,
+        .img4 {
+            height: 100%;
+            background-position: relative;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            opacity: 0.7;
+        }
+
+        .img1 {
+            background-image: url(img/aaa.webp);
+        }
+
+        .img2 {
+            background-image: url(img/bbb.jpg);
+        }
+
+        .img3 {
+            background-image: url(img/Carros_29_Poster.webp);
+        }
+
+        .img4 {
+            background-image: url(img/vi.jpg);
+        }
+
+        .cont-img {
+            position: absolute;
+            top: 45%;
+            width: 100%;
+            text-align: center;
+        }
+
+        .cont-img span.titulo {
+            background-color: aquamarine;
+            color: rgb(255, 255, 255);
+            padding: 20px;
+            font-size: 20px;
+            letter-spacing: 5px;
+        }
+
+        .conteudo {
+            background-color: black;
+            color: azure;
+            font-size: 20px;
+            padding: 50px 100px 40px 100px;
+            text-align: justify;
+            background-image: url(img/1.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+
+        h2 {
+            text-align: center;
+            color: chartreuse;
+            text-transform: uppercase;
+        }
+
+        .roda {
+            margin-top: -20px;
+            height: 330px;
+            background-color: bisque;
+        }
+
+        .roda .down_up {
+            text-align: center;
+            color: darkgreen;
+            font-family: 'finger paint', cursive;
+            font-size: 1.5em;
+            text-align: center;
+        }
+
+        .roda .down_down {
+            text-align: center;
+        }
+
+        .roda .down_down img {
+            width: 40px;
+            border-radius: 25px;
+            border: 4px rebeccapurple dotted;
+            cursor: pointer;
+            margin: 20px;
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="cabe">
+        <div class="logo">
+            <img src="img/1.jpg">
+        </div>
+        <div>
+            <ul>
+                <li>a</li>
+                <li>a</li>
+                <li>a</li>
+                <li>a</li>
+            </ul>
+        </div>
+        <input class="pesq" type="text" name="pesq" placeholder="pesquisar">
+    </div>
+
+    <span class="title">NATURE IS REAL</span>
+
+
+    <div class="content">
+        <h2>Lorem Ipsum</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero esse necessitatibus who wants ut, fugit soluta
+            mollitia totam
+            dicta exercitationem nobis grandes odio aliquam autem eius aliquid! Corrupt, painful eaque?
+
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit, deserunt sequi, temporibus grandes pariatur
+            querquam porro
+            eligendi eius error adipisci qui corrupti iusto quod iure mollitia praesentium voluptates quia! Voluptates.
+        </p>
+
+
+
+        <span class="title">NATURE IS ALIVE</span>
+
+
+        <div class="content">
+            <h2>Lorem Ipsum</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero esse necessitatibus who wants ut, fugit
+                soluta mollitia totam
+                dicta exercitationem nobis grandes odio aliquam autem eius aliquid! Corrupt, painful eaque?
+
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit, deserunt sequi, temporibus grandes
+                pariatur querquam porro
+                eligendi eius error adipisci qui corrupti iusto quod iure mollitia praesentium voluptates quia!
+                Voluptates.</p>
+
+
+
+            <span class="title">NATURE IS OURS</span>
+            <div class="content">
+                <h2>Lorem Ipsum</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero esse necessitatibus quam quer ut,
+                    fugit soluta mollitia totam
+                    dicta exercitationem nobis grandes odio aliquam autem eius aliquid! Corrupti, painful eaque?
+
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit, deserunt sequi, temporibus grandes
+                    pariatur querquam porro
+                    eligendi eius error adipisci qui corrupti iusto quod iure mollitia praesentium voluptates quia!
+                    Voluptates.</p>
+
+
+
+                <span class="title">NATURE IS LIFE</span>
+
+
+                <div class="roda">
+
+
+                    <div class="down_meio">Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>#NATURE</div>
+
+                    <a href="https://pt-br.facebook.com/" target="_blank"><img src="img/ColiseuDEneve.PNG"></a>
+                    <a href="https://www.whatsapp.com/?lang=pt_BR" target="_blank"><img src="img/CristodeOuro.PNG"></a>
+                    <a href="https://www.instagram.com/" target="_blank"><img src="img/pexelssimon.jpg"></a>
+</body>
+
+</html>
